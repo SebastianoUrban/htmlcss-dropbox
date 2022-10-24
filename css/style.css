@@ -135,3 +135,160 @@ section.service div.text {
     height: 300px;
     background-color: coral;
 }
+
+
+/*  feature */
+section.feature{
+
+}
+
+section.feature div.container{
+    margin-top: 2rem;
+    width: 70%;
+}
+
+section.feature div.title{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.feature div.cards{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.feature div.card{
+    height: 450px;
+    width: 300px;
+    background-color: yellowgreen;
+    margin-top: 1rem;
+}
+
+
+
+/*  team-using */
+section.team-using {
+
+}
+
+section.team-using div.container{
+    margin-top: 2rem;
+    width: 70%;
+}
+
+section.team-using div.title{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.team-using div.link{
+    height: 50px;
+    width: 100%;
+    background-color: indigo;
+}
+
+
+/*  partner */
+section.partner {
+    margin-top: 2rem;
+}
+
+section.partner div.principale-sq {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+section.partner div.left-sq{
+    background-color: red;
+    
+}
+
+section.partner div.central-sq{
+    background-color: blue;
+    
+}
+
+section.partner div.right-sq{
+    background-color: orange;
+}
+
+
+
+/*  start-free-try */
+section.start-free-try {
+
+}
+
+section.start-free-try div.container {
+    margin-top: 2rem;
+    width: 70%;
+    justify-content: space-between;
+}
+
+section.start-free-try div.title {
+    height: 100px;
+    width: 60%;
+    background-color: aqua;
+}
+
+section.start-free-try button {
+    
+}
+
+
+
+/* faq */
+section.faq {
+
+}
+
+section.faq div.container {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+section.faq div.title {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.faq div.question {
+    height: 100px;
+    width: 100%;
+    background-color: azure;
+}
+
+
+/*  FOOTER */
+footer {
+    background-color: black;
+}
+
+footer div.container {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+
+/* nav */
+footer nav {
+}
+
+footer nav div.category {
+    background-color: red;
+    height: 200px;
+    width: calc(100% / 5);
+    border: 1px solid blue;
+}
+
+
+/* lenguages */
+section.lenguages {
+    margin-top: 2rem;
+    height: 100px;
+    width: calc(100% / 5);
+    background-color: blue;
+}

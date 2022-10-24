@@ -18,23 +18,52 @@ html{
     align-items: center;
 }
 
+.button-style {
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    background-color: #3157e6;
+    color: white;
+}
+
 /* HEADER */
 header{
-    height: 100px;
-    width: 100%;
-    background-color: blueviolet;
+    height: 70px;
+    width: 100vw;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
-header div, 
-header nav, 
-header button {
+
+section.left-header,
+section.right-header{
     margin: 0 1rem;
-    border: 2px dotted black;
 }
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    margin: 0 1rem;
+    font-size: 0.9;
+}
+
+header button.login {
+    margin: 0 1rem;
+    background-color: white;
+    color: black;
+}
+
+
+
 
 /* MAIN */
+main {
+    padding-top: 70px;
+}
 
 
 /* free-try */

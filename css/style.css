@@ -7,3 +7,131 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+header{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div, 
+header nav, 
+header button {
+    margin: 0 1rem;
+    border: 2px dotted black;
+}
+
+/* MAIN */
+
+
+/* free-try */
+section.free-try {
+    background-color: lightgray;
+}
+
+section.free-try div.container {
+    width: 80%;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-top: 2rem;
+}
+
+section.free-try div.title{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.free-try div.text{
+    height: 250px;
+    width: 40%;
+    background-color: coral;
+}
+
+section.free-try div.image{
+    height: 300px;
+    width: 60%;
+    background-color: violet;
+}
+
+
+/* business-plan */
+section.business-plan {
+
+}
+
+section.business-plan div.container {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+section.business-plan div.title{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.business-plan div.period-selector{
+    height: 80px;
+    width: 100%;
+    background-color: orange;
+}
+
+section.business-plan div.cards{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+section.business-plan div.vertical-card{
+    height: 400px;
+    width: calc((100% - 4rem) / 3);
+    background-color: yellowgreen;
+}
+
+section.business-plan div.vertical-card:nth-child(2){
+    margin: 0 2rem;
+}
+
+section.business-plan div.orizontal-card{
+    height: 200px;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: yellowgreen;
+}
+
+
+/* service */
+section.service {
+    background-color: lightgray;
+}
+
+section.service div.container {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+section.service div.image {
+    width: 60%;
+    height: 300px;
+    background-color: violet;
+}
+
+section.service div.text {
+    width: 40%;
+    height: 300px;
+    background-color: coral;
+}

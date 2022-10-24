@@ -19,7 +19,7 @@ html{
 }
 
 .button-style {
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: none;
     font-size: 0.8rem;
     background-color: #3157e6;
@@ -39,7 +39,7 @@ header{
 
 section.left-header,
 section.right-header{
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 header ul{
@@ -68,32 +68,47 @@ main {
 
 /* free-try */
 section.free-try {
-    background-color: lightgray;
+    background-color: #b5cfe6;
 }
 
 section.free-try div.container {
-    width: 80%;
+    width: 70%;
     flex-wrap: wrap;
-    background-color: lightgray;
     margin-top: 2rem;
+    max-width: 1050px;
+    min-width: 610px;
 }
 
-section.free-try div.title{
-    height: 100px;
+section.free-try div.second-row{
+    position: relative;
     width: 100%;
-    background-color: aqua;
+}
+
+section.free-try h1.title{
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
 
 section.free-try div.text{
-    height: 250px;
-    width: 40%;
-    background-color: coral;
+    width: 37%;
 }
 
-section.free-try div.image{
-    height: 300px;
-    width: 60%;
-    background-color: violet;
+section.free-try div.text button{
+    margin: 1rem 0;
+}
+
+section.free-try div.text i{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+section.free-try img.image{
+    position: absolute;
+    width: 63%;
+    left: 37%;
+    top: 0;
 }
 
 
@@ -103,7 +118,7 @@ section.business-plan {
 }
 
 section.business-plan div.container {
-    margin-top: 2rem;
+    margin-top: 150px;
     width: 70%;
 }
 

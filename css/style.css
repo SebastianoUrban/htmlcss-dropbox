@@ -6,6 +6,7 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
 }
 
 .flex {
@@ -19,16 +20,15 @@ html{
 }
 
 .button-style {
-    padding: 0.6rem;
+    padding: 0.7rem;
     border: none;
-    font-size: 0.8rem;
     background-color: #3157e6;
     color: white;
 }
 
 .container-large,
 .container-small{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .container-large {
@@ -67,7 +67,6 @@ header ul{
 
 header li{
     margin: 0 1rem;
-    font-size: 0.9;
 }
 
 header button.login {
@@ -82,6 +81,11 @@ header button.login {
 /* MAIN */
 main {
     padding-top: 70px;
+}
+
+h2.title {
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 
 
@@ -107,7 +111,7 @@ section#free-try h1.title{
 }
 
 section#free-try div.text{
-    width: 37%;
+    width: 35%;
 }
 
 section#free-try div.text button{
@@ -115,14 +119,14 @@ section#free-try div.text button{
 }
 
 section#free-try div.text i{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
     font-size: 2.5rem;
 }
 
 section#free-try img.image{
     position: absolute;
-    width: 63%;
+    width: 65%;
     left: 37%;
     top: 0;
 }
@@ -133,33 +137,114 @@ section#business-plan {
 
 }
 
-section#business-plan div.title{
-    height: 100px;
+section#business-plan h2.title{
     width: 100%;
-    background-color: aqua;
 }
 
 section#business-plan div.period-selector{
-    height: 80px;
-    width: 100%;
-    background-color: orange;
+    margin-top: 40px;
+}
+
+section#business-plan div.period-selector input#annual {
+    margin-left: 40px;
 }
 
 section#business-plan div.cards{
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 30px;
 }
 
 section#business-plan div.vertical-card{
-    height: 400px;
+    height: 900px;
     width: calc((100% - 4rem) / 3);
-    background-color: yellowgreen;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
 }
 
 section#business-plan div.vertical-card:nth-child(2){
     margin: 0 2rem;
 }
+
+div.vertical-card div.card-title {
+    padding: 0.5rem 0;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+div.vertical-card div.card-container {
+    width: 85%;
+}
+
+div.vertical-card h3 {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+div.vertical-card span.price {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+div.vertical-card span.period {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+div.vertical-card div.card-container div {
+    margin-top: 10px;
+}
+
+div.vertical-card div.card-container i {
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+
+}
+
+div.vertical-card div.card-container button {
+    width: 100%;
+    margin-top: 40px;
+}
+
+div.vertical-card div.card-container div.buy-now {
+    margin-top: 15px;
+}
+
+div.vertical-card div.card-container div.separator {
+    margin-top: 20px;
+    width: 20%;
+    height: 2px;
+    background-color: lightgray;
+}
+
+div.vertical-card div.card-container h4 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+div.vertical-card div.card-container i.color-blue {
+    color: #3157e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section#business-plan div.orizontal-card{
     height: 200px;
@@ -192,7 +277,7 @@ section#feature{
 
 }
 
-section#feature div.title{
+section#feature h2.title{
     height: 100px;
     width: 100%;
     background-color: aqua;
@@ -217,7 +302,7 @@ section#team-using {
 
 }
 
-section#team-using div.title{
+section#team-using h2.title{
     height: 100px;
     width: 100%;
     background-color: aqua;
@@ -265,7 +350,7 @@ section#start-free-try div.container-small {
     justify-content: space-between;
 }
 
-section#start-free-try div.title {
+section#start-free-try h2.title {
     height: 100px;
     width: 60%;
     background-color: aqua;
@@ -281,7 +366,7 @@ section#start-free-try button {
 section#faq {
 
 }
-section#faq div.title {
+section#faq h2.title {
     height: 100px;
     width: 100%;
     background-color: aqua;

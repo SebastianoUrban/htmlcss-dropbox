@@ -26,6 +26,23 @@ html{
     color: white;
 }
 
+.container-large {
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    max-width: 1050px;
+    min-width: 630px;
+}
+
+.container-small {
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    max-width: 900px;
+    min-width: 540px;
+}
+
+
 /* HEADER */
 header{
     height: 70px;
@@ -37,8 +54,8 @@ header{
 }
 
 
-section.left-header,
-section.right-header{
+section#left-header,
+section#right-header{
     margin: 0 1.5rem;
 }
 
@@ -67,11 +84,11 @@ main {
 
 
 /* free-try */
-section.free-try {
+section#free-try {
     background-color: #b5cfe6;
 }
 
-section.free-try div.container {
+section#free-try div.container {
     width: 70%;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -79,32 +96,33 @@ section.free-try div.container {
     min-width: 610px;
 }
 
-section.free-try div.second-row{
+section#free-try div.second-row{
     position: relative;
     width: 100%;
 }
 
-section.free-try h1.title{
+section#free-try h1.title{
     width: 100%;
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 1rem;
 }
 
-section.free-try div.text{
+section#free-try div.text{
     width: 37%;
 }
 
-section.free-try div.text button{
+section#free-try div.text button{
     margin: 1rem 0;
 }
 
-section.free-try div.text i{
-    margin-top: 3rem;
+section#free-try div.text i{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     font-size: 2.5rem;
 }
 
-section.free-try img.image{
+section#free-try img.image{
     position: absolute;
     width: 63%;
     left: 37%;
@@ -113,44 +131,44 @@ section.free-try img.image{
 
 
 /* business-plan */
-section.business-plan {
+section#business-plan {
 
 }
 
-section.business-plan div.container {
+section#business-plan div.container {
     margin-top: 150px;
     width: 70%;
 }
 
-section.business-plan div.title{
+section#business-plan div.title{
     height: 100px;
     width: 100%;
     background-color: aqua;
 }
 
-section.business-plan div.period-selector{
+section#business-plan div.period-selector{
     height: 80px;
     width: 100%;
     background-color: orange;
 }
 
-section.business-plan div.cards{
+section#business-plan div.cards{
     flex-wrap: wrap;
     width: 100%;
     margin-top: 1rem;
 }
 
-section.business-plan div.vertical-card{
+section#business-plan div.vertical-card{
     height: 400px;
     width: calc((100% - 4rem) / 3);
     background-color: yellowgreen;
 }
 
-section.business-plan div.vertical-card:nth-child(2){
+section#business-plan div.vertical-card:nth-child(2){
     margin: 0 2rem;
 }
 
-section.business-plan div.orizontal-card{
+section#business-plan div.orizontal-card{
     height: 200px;
     width: 100%;
     margin-top: 2rem;
@@ -159,22 +177,22 @@ section.business-plan div.orizontal-card{
 
 
 /* service */
-section.service {
+section#service {
     background-color: lightgray;
 }
 
-section.service div.container {
+section#service div.container {
     margin-top: 2rem;
     width: 70%;
 }
 
-section.service div.image {
+section#service div.image {
     width: 60%;
     height: 300px;
     background-color: violet;
 }
 
-section.service div.text {
+section#service div.text {
     width: 40%;
     height: 300px;
     background-color: coral;
@@ -182,27 +200,27 @@ section.service div.text {
 
 
 /*  feature */
-section.feature{
+section#feature{
 
 }
 
-section.feature div.container{
+section#feature div.container{
     margin-top: 2rem;
     width: 70%;
 }
 
-section.feature div.title{
+section#feature div.title{
     height: 100px;
     width: 100%;
     background-color: aqua;
 }
 
-section.feature div.cards{
+section#feature div.cards{
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-section.feature div.card{
+section#feature div.card{
     height: 450px;
     width: 300px;
     background-color: yellowgreen;
@@ -212,22 +230,22 @@ section.feature div.card{
 
 
 /*  team-using */
-section.team-using {
+section#team-using {
 
 }
 
-section.team-using div.container{
+section#team-using div.container{
     margin-top: 2rem;
     width: 70%;
 }
 
-section.team-using div.title{
+section#team-using div.title{
     height: 100px;
     width: 100%;
     background-color: aqua;
 }
 
-section.team-using div.link{
+section#team-using div.link{
     height: 50px;
     width: 100%;
     background-color: indigo;
@@ -235,71 +253,71 @@ section.team-using div.link{
 
 
 /*  partner */
-section.partner {
+section#partner {
     margin-top: 2rem;
 }
 
-section.partner div.principale-sq {
+section#partner div.principale-sq {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
 
-section.partner div.left-sq{
+section#partner div.left-sq{
     background-color: red;
     
 }
 
-section.partner div.central-sq{
+section#partner div.central-sq{
     background-color: blue;
     
 }
 
-section.partner div.right-sq{
+section#partner div.right-sq{
     background-color: orange;
 }
 
 
 
 /*  start-free-try */
-section.start-free-try {
+section#start-free-try {
 
 }
 
-section.start-free-try div.container {
+section#start-free-try div.container {
     margin-top: 2rem;
     width: 70%;
     justify-content: space-between;
 }
 
-section.start-free-try div.title {
+section#start-free-try div.title {
     height: 100px;
     width: 60%;
     background-color: aqua;
 }
 
-section.start-free-try button {
+section#start-free-try button {
     
 }
 
 
 
 /* faq */
-section.faq {
+section#faq {
 
 }
 
-section.faq div.container {
+section#faq div.container {
     margin-top: 2rem;
     width: 70%;
 }
 
-section.faq div.title {
+section#faq div.title {
     height: 100px;
     width: 100%;
     background-color: aqua;
 }
 
-section.faq div.question {
+section#faq div.question {
     height: 100px;
     width: 100%;
     background-color: azure;
@@ -330,7 +348,7 @@ footer nav div.category {
 
 
 /* lenguages */
-section.lenguages {
+section#lenguages {
     margin-top: 2rem;
     height: 100px;
     width: calc(100% / 5);

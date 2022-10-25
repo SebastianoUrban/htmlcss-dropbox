@@ -26,21 +26,23 @@ html{
     color: white;
 }
 
+.container-large,
+.container-small{
+    margin-top: 100px;
+}
+
 .container-large {
     width: 70%;
-    flex-wrap: wrap;
-    margin-top: 2rem;
     max-width: 1050px;
     min-width: 630px;
 }
 
 .container-small {
     width: 60%;
-    flex-wrap: wrap;
-    margin-top: 2rem;
     max-width: 900px;
     min-width: 540px;
 }
+
 
 
 /* HEADER */
@@ -88,12 +90,8 @@ section#free-try {
     background-color: #b5cfe6;
 }
 
-section#free-try div.container {
-    width: 70%;
+section#free-try div.container-large {
     flex-wrap: wrap;
-    margin-top: 2rem;
-    max-width: 1050px;
-    min-width: 610px;
 }
 
 section#free-try div.second-row{
@@ -133,11 +131,6 @@ section#free-try img.image{
 /* business-plan */
 section#business-plan {
 
-}
-
-section#business-plan div.container {
-    margin-top: 150px;
-    width: 70%;
 }
 
 section#business-plan div.title{
@@ -181,11 +174,6 @@ section#service {
     background-color: lightgray;
 }
 
-section#service div.container {
-    margin-top: 2rem;
-    width: 70%;
-}
-
 section#service div.image {
     width: 60%;
     height: 300px;
@@ -202,11 +190,6 @@ section#service div.text {
 /*  feature */
 section#feature{
 
-}
-
-section#feature div.container{
-    margin-top: 2rem;
-    width: 70%;
 }
 
 section#feature div.title{
@@ -232,11 +215,6 @@ section#feature div.card{
 /*  team-using */
 section#team-using {
 
-}
-
-section#team-using div.container{
-    margin-top: 2rem;
-    width: 70%;
 }
 
 section#team-using div.title{
@@ -283,9 +261,7 @@ section#start-free-try {
 
 }
 
-section#start-free-try div.container {
-    margin-top: 2rem;
-    width: 70%;
+section#start-free-try div.container-small {
     justify-content: space-between;
 }
 
@@ -305,12 +281,6 @@ section#start-free-try button {
 section#faq {
 
 }
-
-section#faq div.container {
-    margin-top: 2rem;
-    width: 70%;
-}
-
 section#faq div.title {
     height: 100px;
     width: 100%;
@@ -327,11 +297,6 @@ section#faq div.question {
 /*  FOOTER */
 footer {
     background-color: black;
-}
-
-footer div.container {
-    margin-top: 2rem;
-    width: 80%;
 }
 
 

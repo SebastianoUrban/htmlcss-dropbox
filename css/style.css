@@ -183,7 +183,7 @@ div.vertical-card div.card-container {
     width: 85%;
 }
 
-div.cards h3 {
+section#business-plan div.cards h3 {
     margin-top: 30px;
     font-size: 1.4rem;
     font-weight: 800;
@@ -300,28 +300,42 @@ section#service div.text button{
 
 
 
+
 /*  feature */
 section#feature{
 
 }
 
 section#feature h2.title{
-    height: 100px;
     width: 100%;
-    background-color: aqua;
 }
 
 section#feature div.cards{
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 section#feature div.card{
-    height: 450px;
-    width: 300px;
-    background-color: yellowgreen;
+    width: calc((100% - 4rem) / 3);
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+section#feature div.card img.image{
+    width: 100%;
+}
+
+section#feature div.card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+section#feature div.card p{
     margin-top: 1rem;
 }
+
+
 
 
 

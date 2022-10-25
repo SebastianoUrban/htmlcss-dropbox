@@ -270,19 +270,34 @@ div.horizontal-card div.card-text{
 
 /* service */
 section#service {
+    width: 100%;
 }
 
-section#service div.image {
+section#service img.image {
     width: 60%;
-    height: 300px;
-    background-color: violet;
 }
 
 section#service div.text {
     width: 40%;
-    height: 300px;
-    background-color: coral;
+    padding: 3rem 1rem 3rem 3rem;
 }
+
+section#service div.text h2.title{
+    font-size: 1.5rem;
+}
+
+section#service div.text p{
+    margin-top: 1rem;
+}
+
+section#service div.text button{
+    margin-top: 2rem;
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+}
+
+
 
 
 /*  feature */

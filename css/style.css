@@ -29,18 +29,17 @@ html{
 .container-large,
 .container-small{
     margin-top: 150px;
+    min-width: 670px;
 }
 
 .container-large {
     width: 70%;
     max-width: 1050px;
-    min-width: 630px;
 }
 
 .container-small {
     width: 60%;
     max-width: 900px;
-    min-width: 540px;
 }
 
 
@@ -53,6 +52,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 2;
 }
 
 
@@ -155,6 +155,8 @@ section#business-plan div.cards{
     margin-top: 30px;
 }
 
+/*  vertical-card */
+
 section#business-plan div.vertical-card{
     height: 900px;
     width: calc((100% - 4rem) / 3);
@@ -167,29 +169,33 @@ section#business-plan div.vertical-card:nth-child(2){
     margin: 0 2rem;
 }
 
-div.vertical-card div.card-title {
+div.card-title {
     padding: 0.5rem 0;
     width: 100%;
     border-bottom: 2px solid lightgray;
+}
+
+div.card-title i{
+    margin-right: 0.5rem;
 }
 
 div.vertical-card div.card-container {
     width: 85%;
 }
 
-div.vertical-card h3 {
+div.cards h3 {
     margin-top: 30px;
     font-size: 1.4rem;
     font-weight: 800;
 }
 
-div.vertical-card span.price {
+div.cards span.price {
     display: block;
     margin-top: 15px;
     font-weight: 700;
 }
 
-div.vertical-card span.period {
+div.cards span.period {
     display: block;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -212,7 +218,7 @@ div.vertical-card div.card-container button {
 }
 
 div.vertical-card div.card-container div.buy-now {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 div.vertical-card div.card-container div.separator {
@@ -234,29 +240,36 @@ div.vertical-card div.card-container i.color-blue {
 }
 
 
+/*  horizontal-card */
 
-
-
-
-
-
-
-
-
-
-
-
-section#business-plan div.orizontal-card{
-    height: 200px;
+section#business-plan div.horizontal-card{
     width: 100%;
     margin-top: 2rem;
-    background-color: yellowgreen;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border: 2px solid lightgray;
 }
+
+div.horizontal-card div.card-container{
+    justify-content: space-between;
+    width: 95%;
+}
+
+div.horizontal-card div.card-info,
+div.horizontal-card div>button{
+    margin-top: 30px;
+}
+
+div.horizontal-card div.card-text{
+    width: calc(100% - 190px);
+}
+
+
+
 
 
 /* service */
 section#service {
-    background-color: lightgray;
 }
 
 section#service div.image {

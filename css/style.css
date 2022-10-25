@@ -472,40 +472,51 @@ section#partner div.right-sq div.sq-bot-right{
 
 /*  start-free-try */
 section#start-free-try {
-
+    background-color: #b5cfe6;
+    padding-bottom: 150px;
 }
 
 section#start-free-try div.container-small {
     justify-content: space-between;
+
 }
 
 section#start-free-try h2.title {
-    height: 100px;
-    width: 60%;
-    background-color: aqua;
+    width: 50%;
+    color: #5c0029;
+}
+
+section#start-free-try div.container-small>div {
+    width: 25%;
 }
 
 section#start-free-try button {
-    
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
 }
 
 
 
 /* faq */
 section#faq {
-
+    margin-bottom: 150px;
 }
 section#faq h2.title {
     height: 100px;
     width: 100%;
-    background-color: aqua;
 }
 
 section#faq div.question {
-    height: 100px;
     width: 100%;
-    background-color: azure;
+    justify-content: space-between;
+    padding: 2.5rem 3rem 2.5rem 0rem;
+    font-weight: 700;
 }
+
+
+
 
 
 /*  FOOTER */

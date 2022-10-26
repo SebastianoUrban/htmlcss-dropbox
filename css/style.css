@@ -133,10 +133,6 @@ section#free-try img.image{
 
 
 /* business-plan */
-section#business-plan {
-
-}
-
 section#business-plan h2.title{
     width: 100%;
 }
@@ -302,10 +298,6 @@ section#service div.text button{
 
 
 /*  feature */
-section#feature{
-
-}
-
 section#feature h2.title{
     width: 100%;
 }
@@ -340,10 +332,6 @@ section#feature div.card p{
 
 
 /*  team-using */
-section#team-using {
-
-}
-
 section#team-using h2.title{
     width: 60%;
 }
@@ -375,10 +363,21 @@ div.left-sq>div,
 div.right-sq>div{
     height: 50%;
     width: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
+    transition: border 0.3s;
 }
+
+div.left-sq img,
+div.right-sq img{
+    width: 70%;
+    filter: invert(1);
+}
+
+section#partner div.left-sq>div:hover,
+section#partner div.right-sq>div:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
 
 /* left-sq  */
 section#partner div.left-sq{
@@ -387,23 +386,19 @@ section#partner div.left-sq{
 
 section#partner div.left-sq div.sq-top-left{
     background-color: #a1d39b;
-    background-image: url(../img/designit.svg);
 }
 
 section#partner div.left-sq div.sq-top-right{
     background-color: #5f0b30;
-    background-image: url(../img/arizona_state_university.svg);
     
 }
 
 section#partner div.left-sq div.sq-bot-left{
     background-color: #2e92cb;
-    background-image: url(../img/university_of_florida.svg);
 }
 
 section#partner div.left-sq div.sq-bot-right{
     background-color: #f90b30;
-    background-image: url(../img/topps.svg);
 }
 
 
@@ -443,23 +438,18 @@ section#partner div.right-sq{
 
 section#partner div.right-sq div.sq-top-left{
     background-color: #cf002d;
-    background-image: url(../img/world_bicycle_relief.svg);
-    
 }
 
 section#partner div.right-sq div.sq-top-right{
     background-color: #b5cfe6;
-    background-image: url(../img/hearst_corp.svg);
 }
 
 section#partner div.right-sq div.sq-bot-left{
     background-color: #20277f;
-    background-image: url(../img/lonely_planet.svg);
 }
 
 section#partner div.right-sq div.sq-bot-right{
     background-color: #fbd744;
-    background-image: url(../img/clear_channel.svg);
 }
 
 
@@ -527,9 +517,6 @@ footer {
 
 
 /* nav */
-footer nav {
-}
-
 footer nav div.category {
     width: calc(100% / 5);
 }
